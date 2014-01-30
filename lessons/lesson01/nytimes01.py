@@ -1,4 +1,3 @@
-#python classwork 01
 
 #!/usr/bin/python
 # Import required libraries
