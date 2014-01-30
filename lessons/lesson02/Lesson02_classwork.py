@@ -7,7 +7,8 @@ Documentation in Python
 from __future__ import division
 import sys
 
-matrix = [1, 2, 3, 4]
-vector = [2,3]
+matrix1 = [1, 2, 3, 4]
+vector1 = [2,3]
 
 def vectormatrixMultiply ()
+	
