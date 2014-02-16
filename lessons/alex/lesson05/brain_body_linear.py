@@ -37,11 +37,13 @@ regr.coef_
 # Display our SSE:
 mean((regr.predict(body) - brain) ** 2)
 # Scoring our model (closer to 1 is better!)
-regr.score(body, brain)
+parts = regr.score(body, brain)
+print parts
 
 # Display the coefficients:
 regr.coef_
 # Display our SSE:
 mean((log_regr.predict(body1) - brain1) ** 2)
 # Scoring our model (closer to 1 is better!)
-log_regr.score(body1, brain1)
+log_parts = log_regr.score(body1, brain1)
+print log_parts
